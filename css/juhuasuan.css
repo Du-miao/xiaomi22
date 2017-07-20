@@ -1,0 +1,203 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: "微软雅黑";
+  text-decoration: none;
+  box-sizing: border-box; }
+
+.head-top {
+  background: linear-gradient(to bottom, #fefefe, #ececec);
+  display: flex;
+  width: 100%;
+  padding: 0 3%;
+  height: 4.4rem;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 2; }
+  .head-top a {
+    flex: 1; }
+  .head-top img {
+    max-width: 80%; }
+
+.swiper-container {
+  margin-top: 4.4rem;
+  height: 100%;
+  padding-bottom: 3rem; }
+  .swiper-container img {
+    width: 100%;
+    height: 100%; }
+  .swiper-container .swiper-pagination-bullet {
+    background: #FF4300; }
+
+.header-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  padding-bottom: 1rem;
+  color: #A2A2A2; }
+  .header-nav li {
+    width: 25%;
+    margin-top: 0.8rem; }
+    .header-nav li p:nth-child(2) {
+      line-height: 34px; }
+  .header-nav img {
+    max-width: 60%; }
+
+.content-top {
+  width: 96%;
+  margin: 0 auto;
+  padding: 12.5px 0;
+  border-bottom: 2px solid #DCDCDC;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem; }
+  .content-top h3:nth-child(1) {
+    border-left: 3px solid #D51938;
+    padding-left: 10px; }
+
+main {
+  width: 96%;
+  margin: 0 auto; }
+
+.content ul {
+  display: flex;
+  margin-bottom: 0.8rem; }
+  .content ul li:nth-child(1) {
+    text-align: center;
+    width: 10%;
+    height: auto;
+    padding-top: 5%;
+    font-size: 2rem;
+    color: #fff; }
+  .content ul li:nth-child(2) {
+    width: 30%; }
+    .content ul li:nth-child(2) img {
+      width: 100%; }
+  .content ul li:nth-child(3) {
+    height: auto;
+    background: #F4F4F4;
+    width: 60%;
+    align-items: center;
+    display: flex;
+    padding: 0 4%;
+    justify-content: space-between;
+    color: gray; }
+    .content ul li:nth-child(3) p {
+      line-height: 1.6rem; }
+    .content ul li:nth-child(3) .zhe {
+      color: #D41131;
+      font-weight: bold; }
+    .content ul li:nth-child(3) .a {
+      margin-left: 4px;
+      color: gray; }
+    .content ul li:nth-child(3) .old {
+      text-decoration: line-through; }
+    .content ul li:nth-child(3) .price {
+      color: #D41131;
+      font-weight: bold;
+      font-size: 1.5rem; }
+
+.li1 {
+  background: #E00202; }
+
+.li2 {
+  background: #FF4800; }
+
+.li3 {
+  background: #FF7300; }
+
+.li4 {
+  background: #FF9D00; }
+
+.li5 {
+  background: #FFA800; }
+
+.li6 {
+  background: #FFB400; }
+
+.li7 {
+  background: #FFBA00; }
+
+.li8 {
+  background: #FCD000; }
+
+.li9 {
+  background: #FFD719; }
+
+.li10 {
+  background: #FFE152; }
+
+.row {
+  background: #F5F5F5;
+  padding: 1.1rem 0;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem; }
+
+.con {
+  margin-bottom: 0.8rem;
+  display: flex;
+  text-align: center; }
+  .con p {
+    width: 25%; }
+    .con p img {
+      max-width: 100%; }
+  .con ul {
+    width: 75%;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap; }
+    .con ul li {
+      width: 33.3%;
+      padding: 1.1rem  0.2rem;
+      border: 1px solid #F6F6F6; }
+
+.red {
+  color: #D62048;
+  font-weight: bold; }
+
+.con-one {
+  display: flex;
+  text-align: center; }
+  .con-one img {
+    max-width: 50%; }
+  .con-one li {
+    width: 33.3%;
+    color: #fff;
+    padding: 9% 0; }
+  .con-one li:nth-child(1) {
+    background: #38A4F1; }
+  .con-one li:nth-child(2) {
+    background: #8BCA11; }
+  .con-one li:nth-child(3) {
+    background: #FF7404; }
+
+.foot {
+  background: #F8F8F8;
+  padding: 1.5rem 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold; }
+  .foot a {
+    color: #000; }
+  .foot a:nth-child(1) {
+    margin-right: 1.5rem; }
+
+.foot-bottom {
+  background: #EEEEEE;
+  text-align: center;
+  padding: 2rem 5rem; }
+  .foot-bottom p:first-child {
+    font-weight: bold;
+    margin-bottom: 0.3rem; }
+    .foot-bottom p:first-child span:first-child {
+      margin-right: 0.5rem; }
+  .foot-bottom p:nth-child(2) {
+    color: #979797; }
+
+/*# sourceMappingURL=juhuasuan.css.map */
